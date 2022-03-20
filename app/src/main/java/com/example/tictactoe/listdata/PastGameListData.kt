@@ -42,7 +42,7 @@ object PastGameListData {
             val orderOfMoves = sharedPref.getString(Yash_GameModel.Constanst.ORDER_OF_MOVES,"")
 
             val pastGame = PastGame("Game "+i, gameResult!!, dateTime!!, orderOfMoves!!)
-            addItem(pastGame)
+            addItem(pastGame)1
         }
     }
 
